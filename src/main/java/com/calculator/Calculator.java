@@ -20,6 +20,8 @@ public class Calculator {
 	}
 
 	public double divide(double value1, double value2) {
+		if (value2 == 0) 
+			throw new NumberFormatException();
 		result = value1 / value2;
 		return result;
 	}
