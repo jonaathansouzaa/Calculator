@@ -17,10 +17,10 @@ public class CalculatroApp {
 		// instanciação de um objeto da classe calculadora
 		Calculator calc = new Calculator();
 
-		JOptionPane.showMessageDialog(null, "somar: " + calc.somar(x, y));
-		JOptionPane.showMessageDialog(null, "subtrair: " + calc.subtrair(x, y));
-		JOptionPane.showMessageDialog(null, "multiplicar: " + calc.multiplicar(x, y));
-		JOptionPane.showMessageDialog(null, "dividir: " + calc.dividir(x, y));
+		JOptionPane.showMessageDialog(null, "somar: " + calc.sum(x, y));
+		JOptionPane.showMessageDialog(null, "subtrair: " + calc.subtract(x, y));
+		JOptionPane.showMessageDialog(null, "multiplicar: " + calc.multiply(x, y));
+		JOptionPane.showMessageDialog(null, "dividir: " + calc.divide(x, y));
 
 		System.exit(0);
 	}

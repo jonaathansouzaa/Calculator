@@ -2,35 +2,26 @@ package com.calculator;
 
 public class Calculator {
 
-	// atributo
-	private int resultado = 0;
+	private double result = 0;
 
-	// método somar
-	public double somar(int n1, int n2) {
-
-		resultado = n1 + n2;
-		return resultado;
+	public double sum(double value1, double value2) {
+		result = value1 + value2;
+		return result;
 	}
 
-	// método subtrair
-	public double subtrair(int n1, int n2) {
-
-		resultado = n1 - n2;
-		return resultado;
+	public double subtract(int value1, int value2) {
+		result = value1 - value2;
+		return result;
 	}
 
-	// método multiplicar
-	public double multiplicar(int n1, int n2) {
-
-		resultado = n1 * n2;
-		return resultado;
+	public double multiply(int value1, int value2) {
+		result = value1 * value2;
+		return result;
 	}
 
-	// método dividir
-	public double dividir(int n1, int n2) {
-
-		resultado = n1 / n2;
-		return resultado;
+	public double divide(int value1, int value2) {
+		result = value1 / value2;
+		return result;
 	}
 
 }
