@@ -9,17 +9,17 @@ public class Calculator {
 		return result;
 	}
 
-	public double subtract(int value1, int value2) {
+	public double subtract(double value1, double value2) {
 		result = value1 - value2;
 		return result;
 	}
 
-	public double multiply(int value1, int value2) {
+	public double multiply(double value1, double value2) {
 		result = value1 * value2;
 		return result;
 	}
 
-	public double divide(int value1, int value2) {
+	public double divide(double value1, double value2) {
 		result = value1 / value2;
 		return result;
 	}
